@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Calculation"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@color/purple_700"/>
+
+    <EditText
+        android:id="@+id/btndate"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter date of joining"/>
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date of Birth"/>
+
+    <EditText
+        android:id="@+id/btnresultdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. of years worked"/>
+    <EditText
+        android:id="@+id/btnresultdob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your age is"/>
+
+
+</LinearLayout>
+
